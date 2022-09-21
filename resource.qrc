@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ElegantDark.qss</file>
+        <file>add_off.png</file>
+        <file>add_on.png</file>
+        <file>mint_off.png</file>
+        <file>mint_on.png</file>
+        <file>offer_on.png</file>
+        <file>offer_off.png</file>
+        <file>start_off.png</file>
+        <file>start_on.png</file>
+        <file>first.png</file>
+        <file>spin_down.png</file>
+        <file>spin_up.png</file>
+        <file>en.qm</file>
+        <file>cn.qm</file>
+        <file>help.png</file>
+        <file>help_1.png</file>
+        <file>checked.png</file>
+        <file>License.txt</file>
+        <file>logo.jpg</file>
+    </qresource>
+</RCC>
