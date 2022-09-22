@@ -6,6 +6,25 @@ Assist users in batch synthesis of NFT images, batch mint, and batch creation of
 * 技术交流群：369056311（春耕）
 #
 
+# 下载与使用
+
+1、windows系统下：
+
+	下载带有“_windows”字样的压缩包，解压后打开“ChiaNFTMaker.exe”即可。
+
+2、ubuntu系统下：
+
+	下载带有“_ubuntu”字样的压缩包，打开解压后的文件夹，运行终端，逐条执行以下命令：
+
+	chmod +x ./ChiaNFTMaker
+
+	chmod +x ./ChiaNFTMaker.sh
+
+	./ChiaNFTMaker.sh
+
+	然后就可以使用了！
+
+
 # 一、如何合成NFT图片
 
 1、前期准备
