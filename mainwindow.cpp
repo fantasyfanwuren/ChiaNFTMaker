@@ -23,7 +23,7 @@
 #include <QtDebug>
 
 
-const QString VERSION= "3.0.0";
+const QString VERSION= "3.1.0";
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -379,15 +379,6 @@ void MainWindow::on_save_triggered()
 }
 
 
-
-
-
-
-
-
-
-
-
 void MainWindow::on_software_triggered()
 {
     about->show();
@@ -397,5 +388,24 @@ void MainWindow::on_software_triggered()
 void MainWindow::on_documentHelp_triggered()
 {
     help->show();
+}
+
+
+void MainWindow::on_composeHelp_triggered()
+{
+    QDesktopServices::openUrl(QUrl(QString("https://www.bilibili.com/video/BV1Nd4y1z7Pe/")));
+}
+
+
+void MainWindow::on_mintHelp_triggered()
+{
+    QDesktopServices::openUrl(QUrl(QString("https://www.bilibili.com/video/BV1PD4y117Z6/")));
+}
+
+
+
+void MainWindow::on_offerHelp_triggered()
+{
+    QDesktopServices::openUrl(QUrl(QString("https://www.bilibili.com/video/BV1c14y1e7x5/")));
 }
 

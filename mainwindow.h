@@ -71,6 +71,12 @@ private slots:
 
     void on_documentHelp_triggered();
 
+    void on_composeHelp_triggered();
+
+    void on_mintHelp_triggered();
+
+    void on_offerHelp_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

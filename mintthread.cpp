@@ -137,7 +137,7 @@ void MintThread::viewOrder()
                  <<"-mu"<<orderTable.at(i).at(5)
                  <<"-lh"<<theMintArg.licenseHash
                  <<"-lu"<<theMintArg.licenceLink
-                 <<"-ec"<<QString::number(theMintArg.totalVersion)
+                 <<"-et"<<QString::number(theMintArg.totalVersion)
                  <<"-en"<<QString::number(theMintArg.currentVersion)
                  <<"-m"<<QString::number(fee)
                  <<"-rp"<<QString::number(theMintArg.royalty);
@@ -215,7 +215,7 @@ void MintThread::runOrder()
                  <<"-mu"<<orderTable.at(i).at(5)
                  <<"-lh"<<theMintArg.licenseHash
                  <<"-lu"<<theMintArg.licenceLink
-                 <<"-ec"<<QString::number(theMintArg.totalVersion)
+                 <<"-et"<<QString::number(theMintArg.totalVersion)
                  <<"-en"<<QString::number(theMintArg.currentVersion)
                  <<"-m"<<QString::number(fee)
                  <<"-rp"<<QString::number(theMintArg.royalty);

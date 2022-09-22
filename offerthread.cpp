@@ -146,15 +146,13 @@ void OfferThread::setTable(const QList<QStringList> &_table)
 
 void OfferThread::getProcessArg(int row,QStringList &arg)
 {
+    //tr("NFT链接")<<tr("NFTID")<<tr("价格")
     arg.clear();
     arg<<"wallet"<<"make_offer"
       <<"-o"<<table.at(row).at(1)+":1"
      <<"-f"<<theOfferArg.fingerprint
     <<"-r"<<theOfferArg.receiveWalletId+":"+table.at(row).at(2);
-    QString name = table.at(row).at(0);
-    name.remove("/");
-    name.remove(".");
-    name.remove(" ");
-    arg<<"-p"<<theOfferArg.offerPath+"/"+name+".offer";
+    QString name = "1_"+table.at(row).at(1)+"_x_"+table.at(row).at(2)+"XCH.offer";
+    arg<<"-p"<<theOfferArg.offerPath+"/"+name;
 }
 

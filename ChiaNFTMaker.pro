@@ -69,7 +69,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RC_ICONS += ChiaMintNFT1.ico
 
 #版本号
-VERSION = 3.0.0
+VERSION = 3.1.0
 #中文
 RC_LANG = 0x0004
 # 公司名
