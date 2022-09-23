@@ -1,5 +1,6 @@
-# ChiaNFTMaker
-Assist users in batch synthesis of NFT images, batch mint, and batch creation of offers
+# ChiaNFTMaker（中文文档）
+* Assist users in batch synthesis of NFT images, batch mint, and batch creation of offers
+* 
 #
 * 本软件由中国数字党开源创作，仅作技术交流，请勿用于非法用途
 * 软件开源地址：https://github.com/fantasyfanwuren/ChiaNFTMaker.git
