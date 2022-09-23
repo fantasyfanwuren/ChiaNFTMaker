@@ -1232,6 +1232,7 @@ Get method:
         <location filename="formoffer.cpp" line="294"/>
         <location filename="formoffer.cpp" line="332"/>
         <location filename="formoffer.cpp" line="371"/>
+        <location filename="formoffer.cpp" line="408"/>
         <source>提醒</source>
         <translation>remind</translation>
     </message>
@@ -1324,6 +1325,11 @@ Get method:
         <location filename="formoffer.cpp" line="332"/>
         <location filename="formoffer.cpp" line="371"/>
         <source>请先进行初始布局</source>
+        <translation>Please make the initial layout first</translation>
+    </message>
+    <message>
+        <location filename="formoffer.cpp" line="408"/>
+        <source>未进行初始化布局</source>
         <translation>Please make the initial layout first</translation>
     </message>
 </context>

@@ -388,3 +388,24 @@ void FormOffer::on_finishViewOrder(QString orderText)
     dialogOrderView->show();
 
 }
+
+void FormOffer::on_pushButtonOfferLayoutDelete_clicked()
+{
+    if(orderTableModel->rowCount()!=0){
+        QModelIndexList indexList = ui->tableViewOrderTable->selectionModel()->selectedIndexes();
+        QList<int> deleteRow;
+        //筛选出非重复的行
+        for(int i=0;i<indexList.count();++i){
+            if(!deleteRow.contains(indexList.at(i).row())){
+                deleteRow<<indexList.at(i).row();
+            }
+        }
+        //执行删除行的命令
+        for(int i=0;i<deleteRow.count();++i){
+            orderTableModel->removeRow(deleteRow.at(i)-i);
+        }
+    }else{
+        QMessageBox::information(this,tr("提醒"),tr("未进行初始化布局"));
+    }
+}
+

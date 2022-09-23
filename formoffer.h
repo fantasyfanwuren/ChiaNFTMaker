@@ -51,6 +51,8 @@ private slots:
     void on_pushButtonOfferOrderView_clicked();
     void on_finishViewOrder(QString orderText);
 
+    void on_pushButtonOfferLayoutDelete_clicked();
+
 private:
     Ui::FormOffer *ui;
     QStandardItemModel *walletIdModel;
