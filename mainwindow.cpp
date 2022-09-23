@@ -289,6 +289,9 @@ void MainWindow::add()
     }
     QDesktopServices::openUrl(QUrl::fromLocalFile(josnSavePath));
     QDesktopServices::openUrl(QUrl::fromLocalFile(pngSavePath));
+    //创建许可证
+    ComposeThread compose(name,describe,discord,website,twitter,uuid,modelContent,head);
+    compose.makeLicense();
     //开启多个线程
     QList<QThread *> thosethread;
     for(int i=0;i<threadNumRules.count();++i){
@@ -312,7 +315,7 @@ void MainWindow::add()
         }
         QCoreApplication::processEvents(QEventLoop::AllEvents, 500);
     }
-    qDebug()<<"waitNum"<<waitNum;
+
 
 
 }

@@ -20,9 +20,10 @@ public:
                             QObject *parent = nullptr);
 
     void setNameRules(const ThreadNumRule &_rule);
+    void makeLicense();
 private:
     const QString getNameString(const int &nameNum,const int &nameLen,const QString &format);
-    void makeLicense();
+
 
 
 private:

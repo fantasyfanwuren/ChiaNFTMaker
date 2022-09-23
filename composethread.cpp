@@ -121,10 +121,8 @@ void ComposeThread::run()
         fp.write(docByte);
         fp.close();
     }
-    //制作许可证
-    makeLicense();
-
-
+    emit exit();
+    deleteLater();
 }
 
 
