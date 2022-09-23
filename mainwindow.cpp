@@ -23,7 +23,7 @@
 #include <QtDebug>
 
 
-const QString VERSION= "3.1.0";
+const QString VERSION= "3.1.1";
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
