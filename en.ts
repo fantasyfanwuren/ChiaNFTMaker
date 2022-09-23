@@ -33,7 +33,8 @@
     </message>
     <message>
         <location filename="dialogabout.ui" line="87"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Chia NFT Maker V_3.0.0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Chia NFT Maker V_3.1.1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Chia NFT Maker V_3.0.0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation></translation>
     </message>
     <message>
@@ -246,7 +247,7 @@ The proportion value corresponding to each royalty address is 1 by default. For 
     </message>
     <message>
         <location filename="dialogregister.ui" line="35"/>
-        <location filename="dialogregister.cpp" line="18"/>
+        <location filename="dialogregister.cpp" line="17"/>
         <source>注册信息</source>
         <translation>Registration Information</translation>
     </message>
@@ -257,7 +258,7 @@ The proportion value corresponding to each royalty address is 1 by default. For 
     </message>
     <message>
         <location filename="dialogregister.ui" line="56"/>
-        <location filename="dialogregister.ui" line="228"/>
+        <location filename="dialogregister.ui" line="237"/>
         <source>0</source>
         <translation></translation>
     </message>
@@ -268,76 +269,76 @@ The proportion value corresponding to each royalty address is 1 by default. For 
     </message>
     <message>
         <location filename="dialogregister.ui" line="78"/>
-        <location filename="dialogregister.ui" line="144"/>
+        <location filename="dialogregister.ui" line="153"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="dialogregister.ui" line="98"/>
+        <location filename="dialogregister.ui" line="101"/>
         <source>状态提示：无</source>
         <translation>Status prompt: None</translation>
     </message>
     <message>
-        <location filename="dialogregister.ui" line="108"/>
-        <location filename="dialogregister.ui" line="259"/>
+        <location filename="dialogregister.ui" line="117"/>
+        <location filename="dialogregister.ui" line="268"/>
         <source>充值</source>
         <translation>Recharge</translation>
     </message>
     <message>
-        <location filename="dialogregister.ui" line="122"/>
+        <location filename="dialogregister.ui" line="131"/>
         <source>chia程序</source>
         <translation>Chia program</translation>
     </message>
     <message>
-        <location filename="dialogregister.ui" line="141"/>
+        <location filename="dialogregister.ui" line="150"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;例如：&lt;/p&gt;&lt;p&gt;①在windows系统下：填写C:\Users\fanwuren\AppData\Local\chia-blockchain\app-1.5.1\resources\app.asar.unpacked\daemon\chia.exe&lt;/p&gt;&lt;p&gt;②在Ubuntu系统下：填写chia即可。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For example:&lt;/p&gt;&lt;p&gt;①In windows system：fill in &quot;C:\Users\fanwuren\AppData\Local\chia-blockchain\app-1.5.1\resources\app.asar.unpacked\daemon\chia.exe&quot;&lt;/p&gt;&lt;p&gt;②In Ubuntu system：file in &quot;chia&quot;。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialogregister.ui" line="166"/>
+        <location filename="dialogregister.ui" line="175"/>
         <source>钱包指纹</source>
         <translation>Wallet fingerprint</translation>
     </message>
     <message>
-        <location filename="dialogregister.ui" line="187"/>
+        <location filename="dialogregister.ui" line="196"/>
         <source>充值数量</source>
         <translation>Recharge quantity</translation>
     </message>
     <message>
-        <location filename="dialogregister.ui" line="194"/>
+        <location filename="dialogregister.ui" line="203"/>
         <source>XCH</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="dialogregister.ui" line="221"/>
+        <location filename="dialogregister.ui" line="230"/>
         <source>交易费</source>
         <translation>Transaction fee</translation>
     </message>
     <message>
-        <location filename="dialogregister.cpp" line="76"/>
-        <location filename="dialogregister.cpp" line="82"/>
-        <location filename="dialogregister.cpp" line="88"/>
-        <location filename="dialogregister.cpp" line="111"/>
+        <location filename="dialogregister.cpp" line="75"/>
+        <location filename="dialogregister.cpp" line="81"/>
+        <location filename="dialogregister.cpp" line="87"/>
+        <location filename="dialogregister.cpp" line="110"/>
         <source>温馨提示</source>
         <translation>Reminder</translation>
     </message>
     <message>
-        <location filename="dialogregister.cpp" line="76"/>
+        <location filename="dialogregister.cpp" line="75"/>
         <source>请填写chia程序位置</source>
         <translation>Please fill in the chia program location</translation>
     </message>
     <message>
-        <location filename="dialogregister.cpp" line="82"/>
+        <location filename="dialogregister.cpp" line="81"/>
         <source>请填写指纹</source>
         <translation>Please fill in the fingerprint</translation>
     </message>
     <message>
-        <location filename="dialogregister.cpp" line="88"/>
+        <location filename="dialogregister.cpp" line="87"/>
         <source>交易费填写过大，您肯定写错了</source>
         <translation>The transaction fee is too large. You must have written it incorrectly</translation>
     </message>
     <message>
-        <location filename="dialogregister.cpp" line="118"/>
+        <location filename="dialogregister.cpp" line="117"/>
         <source>状态提示:</source>
         <translation>Status prompt:</translation>
     </message>
@@ -463,75 +464,85 @@ The proportion value corresponding to each royalty address is 1 by default. For 
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If the user has used the filtering function, part of the content may be hidden. Click this button to restore all the hidden content, so as to view the preview of the whole set of NFT combinations after editing&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="133"/>
+        <location filename="formadd.cpp" line="131"/>
         <source>选择文件夹</source>
         <translation>Select Folder</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="171"/>
-        <location filename="formadd.cpp" line="248"/>
-        <location filename="formadd.cpp" line="270"/>
-        <location filename="formadd.cpp" line="281"/>
-        <location filename="formadd.cpp" line="337"/>
-        <location filename="formadd.cpp" line="356"/>
+        <location filename="formadd.cpp" line="169"/>
+        <location filename="formadd.cpp" line="246"/>
+        <location filename="formadd.cpp" line="268"/>
+        <location filename="formadd.cpp" line="279"/>
+        <location filename="formadd.cpp" line="334"/>
+        <location filename="formadd.cpp" line="353"/>
         <source>提醒</source>
         <translation>remind</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="171"/>
-        <location filename="formadd.cpp" line="248"/>
+        <location filename="formadd.cpp" line="169"/>
+        <location filename="formadd.cpp" line="246"/>
         <source>未进行部件集合文件夹的添加设置,
 请先选择文件夹</source>
         <translation>No settings for adding assembly folders,
 Please select a folder first</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="270"/>
-        <location filename="formadd.cpp" line="281"/>
-        <location filename="formadd.cpp" line="337"/>
-        <location filename="formadd.cpp" line="356"/>
+        <location filename="formadd.cpp" line="212"/>
+        <source>正在准备表格....</source>
+        <translation>Preparing form...</translation>
+    </message>
+    <message>
+        <location filename="formadd.cpp" line="219"/>
+        <source>初始化完成！</source>
+        <translation>Initialization completed!</translation>
+    </message>
+    <message>
+        <location filename="formadd.cpp" line="268"/>
+        <location filename="formadd.cpp" line="279"/>
+        <location filename="formadd.cpp" line="334"/>
+        <location filename="formadd.cpp" line="353"/>
         <source>未检测到任何组合可能,
 请先点击初始化</source>
         <translation>No combination possibility is detected,
 Please click Initialize first</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="384"/>
+        <location filename="formadd.cpp" line="381"/>
         <source>描述、</source>
         <translation>Description、</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="390"/>
+        <location filename="formadd.cpp" line="387"/>
         <source>Discord、</source>
         <translation>Discord、</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="396"/>
+        <location filename="formadd.cpp" line="393"/>
         <source>官网、</source>
         <translation>Official website、</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="402"/>
+        <location filename="formadd.cpp" line="399"/>
         <source>推特、</source>
         <translation>Twitter、</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="408"/>
+        <location filename="formadd.cpp" line="405"/>
         <source>UUID、</source>
         <translation>UUID、</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="414"/>
+        <location filename="formadd.cpp" line="411"/>
         <source>NFT集合名称、</source>
         <translation>NFT set name、</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="431"/>
+        <location filename="formadd.cpp" line="428"/>
         <source>未设置保存部件图片的文件夹</source>
         <translation>No folder is set for saving part pictures</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="435"/>
+        <location filename="formadd.cpp" line="432"/>
         <source>未初始化</source>
         <translation>uninitialized</translation>
     </message>
@@ -565,7 +576,7 @@ Please click Initialize first</translation>
         <translation>View pie chart</translation>
     </message>
     <message>
-        <location filename="formadd.cpp" line="36"/>
+        <location filename="formadd.cpp" line="34"/>
         <source>部位-&gt;部件</source>
         <translation>Position-&gt;Parts</translation>
     </message>
@@ -589,8 +600,8 @@ Please click Initialize first</translation>
     <message>
         <location filename="formmint.ui" line="847"/>
         <location filename="formmint.ui" line="984"/>
-        <location filename="formmint.cpp" line="410"/>
-        <location filename="formmint.cpp" line="422"/>
+        <location filename="formmint.cpp" line="409"/>
+        <location filename="formmint.cpp" line="421"/>
         <source>选择文件夹</source>
         <translation>Select Folder</translation>
     </message>
@@ -665,9 +676,9 @@ Please click Initialize first</translation>
     </message>
     <message>
         <location filename="formmint.ui" line="400"/>
-        <location filename="formmint.cpp" line="32"/>
-        <location filename="formmint.cpp" line="328"/>
-        <location filename="formmint.cpp" line="336"/>
+        <location filename="formmint.cpp" line="31"/>
+        <location filename="formmint.cpp" line="327"/>
+        <location filename="formmint.cpp" line="335"/>
         <source>版税地址</source>
         <translation>Royalty address</translation>
     </message>
@@ -758,7 +769,7 @@ Please click Initialize first</translation>
     </message>
     <message>
         <location filename="formmint.ui" line="862"/>
-        <location filename="formmint.cpp" line="30"/>
+        <location filename="formmint.cpp" line="29"/>
         <source>图片链接</source>
         <translation>Picture link</translation>
     </message>
@@ -820,114 +831,114 @@ Please click Initialize first</translation>
         <translation>View instructions</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="30"/>
+        <location filename="formmint.cpp" line="29"/>
         <source>图片名称</source>
         <translation>Picture Name</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="30"/>
+        <location filename="formmint.cpp" line="29"/>
         <source>图片哈希</source>
         <translation>Picture Hash</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="31"/>
+        <location filename="formmint.cpp" line="30"/>
         <source>元数据名称</source>
         <translation>Metadata Name</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="31"/>
+        <location filename="formmint.cpp" line="30"/>
         <source>元数据哈希</source>
         <translation>Metadata Hash</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="31"/>
+        <location filename="formmint.cpp" line="30"/>
         <source>元数据链接</source>
         <translation>Metadata link</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="32"/>
+        <location filename="formmint.cpp" line="31"/>
         <source>提示</source>
         <translation>Tips</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="154"/>
+        <location filename="formmint.cpp" line="153"/>
         <source>选择chia程序</source>
         <translation>Select chia program</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="166"/>
-        <location filename="formmint.cpp" line="173"/>
-        <location filename="formmint.cpp" line="196"/>
-        <location filename="formmint.cpp" line="231"/>
-        <location filename="formmint.cpp" line="238"/>
-        <location filename="formmint.cpp" line="250"/>
-        <location filename="formmint.cpp" line="280"/>
-        <location filename="formmint.cpp" line="287"/>
-        <location filename="formmint.cpp" line="333"/>
-        <location filename="formmint.cpp" line="361"/>
-        <location filename="formmint.cpp" line="437"/>
+        <location filename="formmint.cpp" line="165"/>
+        <location filename="formmint.cpp" line="172"/>
+        <location filename="formmint.cpp" line="195"/>
+        <location filename="formmint.cpp" line="230"/>
+        <location filename="formmint.cpp" line="237"/>
+        <location filename="formmint.cpp" line="249"/>
+        <location filename="formmint.cpp" line="279"/>
+        <location filename="formmint.cpp" line="286"/>
+        <location filename="formmint.cpp" line="332"/>
+        <location filename="formmint.cpp" line="360"/>
+        <location filename="formmint.cpp" line="436"/>
+        <location filename="formmint.cpp" line="630"/>
         <location filename="formmint.cpp" line="634"/>
-        <location filename="formmint.cpp" line="638"/>
-        <location filename="formmint.cpp" line="674"/>
+        <location filename="formmint.cpp" line="670"/>
         <source>提醒</source>
         <translation>remind</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="166"/>
-        <location filename="formmint.cpp" line="231"/>
-        <location filename="formmint.cpp" line="280"/>
+        <location filename="formmint.cpp" line="165"/>
+        <location filename="formmint.cpp" line="230"/>
+        <location filename="formmint.cpp" line="279"/>
         <source>请填写chia程序位置</source>
         <translation>Please fill in the chia program location</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="173"/>
-        <location filename="formmint.cpp" line="238"/>
-        <location filename="formmint.cpp" line="287"/>
+        <location filename="formmint.cpp" line="172"/>
+        <location filename="formmint.cpp" line="237"/>
+        <location filename="formmint.cpp" line="286"/>
         <source>请填写钱包指纹</source>
         <translation>Please fill in the wallet fingerprint</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="212"/>
+        <location filename="formmint.cpp" line="211"/>
         <source>名称</source>
         <translation>name</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="212"/>
+        <location filename="formmint.cpp" line="211"/>
         <source>钱包ID</source>
         <translation>Wallet ID</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="212"/>
+        <location filename="formmint.cpp" line="211"/>
         <source>钱包类型</source>
         <translation>Wallet type</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="212"/>
+        <location filename="formmint.cpp" line="211"/>
         <source>身份ID</source>
         <translation>Identity ID</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="245"/>
+        <location filename="formmint.cpp" line="244"/>
         <source>DID名称</source>
         <translation>DID Name</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="245"/>
+        <location filename="formmint.cpp" line="244"/>
         <source>请给DID钱包起个名字：</source>
         <translation>Please name the DID wallet:</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="250"/>
+        <location filename="formmint.cpp" line="249"/>
         <source>DID钱包名称不能含有空格</source>
         <translation>DID wallet name cannot contain spaces</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="295"/>
+        <location filename="formmint.cpp" line="294"/>
         <source>NFTId</source>
         <translation>NFTIs</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="296"/>
+        <location filename="formmint.cpp" line="295"/>
         <source>请输入要创建的NFT钱包对应的DID钱包的身份ID
 获取方法：
 ①点击&quot;查看列表&quot;
@@ -940,102 +951,102 @@ Get method:
 ③Copy to clipboard (ctrl+c)</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="328"/>
+        <location filename="formmint.cpp" line="327"/>
         <source>请输入要添加的版税地址：</source>
         <translation>Please enter the royalty address to add:</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="333"/>
+        <location filename="formmint.cpp" line="332"/>
         <source>所填写的版税地址有误</source>
         <translation>Incorrect royalty address</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="336"/>
+        <location filename="formmint.cpp" line="335"/>
         <source>比例值</source>
         <translation>Proportional value</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="361"/>
+        <location filename="formmint.cpp" line="360"/>
         <source>未添加任何版税地址</source>
         <translation>No royalty address added</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="459"/>
+        <location filename="formmint.cpp" line="455"/>
         <source>许可证下载完成</source>
         <translation>License download completed</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="474"/>
+        <location filename="formmint.cpp" line="470"/>
         <source>正在下载许可证...</source>
         <translation>Downloading licenses...</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="487"/>
+        <location filename="formmint.cpp" line="483"/>
         <source>正在准备表格...</source>
         <translation>Preparing table...</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="494"/>
+        <location filename="formmint.cpp" line="490"/>
         <source>表格准备完成</source>
         <translation>Form preparation completed</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="512"/>
+        <location filename="formmint.cpp" line="508"/>
         <source>请选择图片文件</source>
         <translation>Please select a picture file</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="521"/>
+        <location filename="formmint.cpp" line="517"/>
         <source>请填写图片链接</source>
         <translation>Please fill in the picture link</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="530"/>
+        <location filename="formmint.cpp" line="526"/>
         <source>请填写元文件</source>
         <translation>Please fill in the meta file</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="539"/>
+        <location filename="formmint.cpp" line="535"/>
         <source>请填写元文件链接</source>
         <translation>Please fill in the meta file link</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="548"/>
+        <location filename="formmint.cpp" line="544"/>
         <source>请填写许可证链接</source>
         <translation>Please fill in the license link</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="557"/>
+        <location filename="formmint.cpp" line="553"/>
         <source>请填写chia路径</source>
         <translation>Please fill in chia path</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="566"/>
+        <location filename="formmint.cpp" line="562"/>
         <source>请填写指纹</source>
         <translation>Please fill in the fingerprint</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="576"/>
+        <location filename="formmint.cpp" line="572"/>
         <source>请填写NFT钱包ID</source>
         <translation>Please fill in NFT wallet ID</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="584"/>
+        <location filename="formmint.cpp" line="580"/>
         <source>请添加版税地址</source>
         <translation>Please add the royalty address</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="601"/>
+        <location filename="formmint.cpp" line="597"/>
         <source>请填写目标地址</source>
         <translation>Please fill in the target address</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="638"/>
+        <location filename="formmint.cpp" line="634"/>
         <source>请先点击生成指令</source>
         <translation>Please click the generation instruction first</translation>
     </message>
     <message>
-        <location filename="formmint.cpp" line="674"/>
+        <location filename="formmint.cpp" line="670"/>
         <source>请先点击生成命令</source>
         <translation>Please click the generation command first</translation>
     </message>
@@ -1134,7 +1145,7 @@ Get method:
     </message>
     <message>
         <location filename="formoffer.ui" line="401"/>
-        <location filename="formoffer.cpp" line="186"/>
+        <location filename="formoffer.cpp" line="185"/>
         <source>统一价格</source>
         <translation>Uniform price</translation>
     </message>
@@ -1150,7 +1161,7 @@ Get method:
     </message>
     <message>
         <location filename="formoffer.ui" line="461"/>
-        <location filename="formoffer.cpp" line="191"/>
+        <location filename="formoffer.cpp" line="190"/>
         <source>价格下限</source>
         <translation>Price floor</translation>
     </message>
@@ -1205,131 +1216,139 @@ Get method:
         <translation>View instructions</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="108"/>
-        <location filename="formoffer.cpp" line="120"/>
+        <location filename="formoffer.cpp" line="107"/>
+        <location filename="formoffer.cpp" line="119"/>
         <source>请选择chia</source>
         <translation>Please select chia path</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="134"/>
-        <location filename="formoffer.cpp" line="141"/>
-        <location filename="formoffer.cpp" line="161"/>
-        <location filename="formoffer.cpp" line="255"/>
-        <location filename="formoffer.cpp" line="265"/>
-        <location filename="formoffer.cpp" line="275"/>
-        <location filename="formoffer.cpp" line="285"/>
-        <location filename="formoffer.cpp" line="295"/>
-        <location filename="formoffer.cpp" line="333"/>
-        <location filename="formoffer.cpp" line="372"/>
+        <location filename="formoffer.cpp" line="133"/>
+        <location filename="formoffer.cpp" line="140"/>
+        <location filename="formoffer.cpp" line="160"/>
+        <location filename="formoffer.cpp" line="254"/>
+        <location filename="formoffer.cpp" line="264"/>
+        <location filename="formoffer.cpp" line="274"/>
+        <location filename="formoffer.cpp" line="284"/>
+        <location filename="formoffer.cpp" line="294"/>
+        <location filename="formoffer.cpp" line="332"/>
+        <location filename="formoffer.cpp" line="371"/>
         <source>提醒</source>
         <translation>remind</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="134"/>
+        <location filename="formoffer.cpp" line="133"/>
         <source>请填写chia程序位置</source>
         <translation>Please fill in the chia program location</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="141"/>
+        <location filename="formoffer.cpp" line="140"/>
         <source>请填写钱包指纹</source>
         <translation>Please fill in the wallet fingerprint</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="170"/>
+        <location filename="formoffer.cpp" line="169"/>
         <source>名称</source>
         <translation>name</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="170"/>
+        <location filename="formoffer.cpp" line="169"/>
         <source>钱包ID</source>
         <translation>Wallet ID</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="170"/>
+        <location filename="formoffer.cpp" line="169"/>
         <source>钱包类型</source>
         <translation>Wallet type</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="170"/>
+        <location filename="formoffer.cpp" line="169"/>
         <source>身份ID</source>
         <translation>Identity ID</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="220"/>
+        <location filename="formoffer.cpp" line="219"/>
         <source>NFT链接</source>
         <translation>NFT Link</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="220"/>
+        <location filename="formoffer.cpp" line="219"/>
         <source>NFTID</source>
         <translation>NFTID</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="220"/>
+        <location filename="formoffer.cpp" line="219"/>
         <source>价格</source>
         <translation>Price</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="220"/>
+        <location filename="formoffer.cpp" line="219"/>
         <source>提示</source>
         <translation>Tips</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="232"/>
+        <location filename="formoffer.cpp" line="231"/>
         <source>正在准备表格...</source>
         <translation>Preparing table...</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="236"/>
+        <location filename="formoffer.cpp" line="235"/>
         <source>准备表格完成</source>
         <translation>Prepare table Complete</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="255"/>
+        <location filename="formoffer.cpp" line="254"/>
         <source>请填写chia路径</source>
         <translation>Please fill in chia path</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="265"/>
+        <location filename="formoffer.cpp" line="264"/>
         <source>请填写保存目录</source>
         <translation>Please fill in the save directory</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="275"/>
+        <location filename="formoffer.cpp" line="274"/>
         <source>请填写指纹</source>
         <translation>Please fill in the fingerprint</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="285"/>
+        <location filename="formoffer.cpp" line="284"/>
         <source>请填写NFT钱包ID</source>
         <translation>Please fill in NFT wallet ID</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="295"/>
+        <location filename="formoffer.cpp" line="294"/>
         <source>请填写接收钱包ID</source>
         <translation>Please fill in the receiving wallet ID</translation>
     </message>
     <message>
-        <location filename="formoffer.cpp" line="333"/>
-        <location filename="formoffer.cpp" line="372"/>
+        <location filename="formoffer.cpp" line="332"/>
+        <location filename="formoffer.cpp" line="371"/>
         <source>请先进行初始布局</source>
         <translation>Please make the initial layout first</translation>
     </message>
 </context>
 <context>
+    <name>IniAdd</name>
+    <message>
+        <location filename="iniadd.cpp" line="21"/>
+        <source>正在计算所有可能性.....</source>
+        <translation>Calculating all possibilities.....</translation>
+    </message>
+</context>
+<context>
     <name>ListWalletIDThread</name>
     <message>
-        <location filename="listwalletidthread.cpp" line="24"/>
+        <location filename="listwalletidthread.cpp" line="23"/>
         <source>获取钱包列表失败</source>
         <translation>Failed to get wallet list</translation>
     </message>
     <message>
-        <location filename="listwalletidthread.cpp" line="102"/>
+        <location filename="listwalletidthread.cpp" line="93"/>
         <source>创建DID钱包失败</source>
         <translation>Failed to create DID wallet</translation>
     </message>
     <message>
-        <location filename="listwalletidthread.cpp" line="127"/>
+        <location filename="listwalletidthread.cpp" line="118"/>
         <source>创建NFT钱包失败</source>
         <translation>Failed to create NFT wallet</translation>
     </message>
@@ -1358,7 +1377,7 @@ Get method:
     </message>
     <message>
         <location filename="mainwindow.ui" line="228"/>
-        <location filename="mainwindow.cpp" line="127"/>
+        <location filename="mainwindow.cpp" line="126"/>
         <source>开始-A</source>
         <oldsource>开始-合成</oldsource>
         <translation>Start-A</translation>
@@ -1453,81 +1472,81 @@ Get method:
         <translation>English</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="141"/>
+        <location filename="mainwindow.cpp" line="140"/>
         <source>开始-M</source>
         <translation>Start-M</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="155"/>
+        <location filename="mainwindow.cpp" line="154"/>
         <source>开始-O</source>
         <translation>Start-O</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="165"/>
+        <location filename="mainwindow.cpp" line="164"/>
         <source>提示</source>
         <translation>Tips</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="165"/>
+        <location filename="mainwindow.cpp" line="164"/>
         <source>请将软件重启后，方可生效。</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="181"/>
+        <location filename="mainwindow.cpp" line="180"/>
         <source>Please restart the software before it takes effect.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="203"/>
-        <location filename="mainwindow.cpp" line="226"/>
-        <location filename="mainwindow.cpp" line="235"/>
-        <location filename="mainwindow.cpp" line="250"/>
-        <location filename="mainwindow.cpp" line="325"/>
-        <location filename="mainwindow.cpp" line="335"/>
-        <location filename="mainwindow.cpp" line="349"/>
+        <location filename="mainwindow.cpp" line="202"/>
+        <location filename="mainwindow.cpp" line="225"/>
+        <location filename="mainwindow.cpp" line="234"/>
+        <location filename="mainwindow.cpp" line="248"/>
+        <location filename="mainwindow.cpp" line="326"/>
+        <location filename="mainwindow.cpp" line="336"/>
+        <location filename="mainwindow.cpp" line="350"/>
         <source>提醒</source>
         <translation>remind</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="204"/>
+        <location filename="mainwindow.cpp" line="203"/>
         <source>合格的作品需要具备一些架构，请在设置页面认真填写如下信息：</source>
         <translation>Qualified works need to have some structures. Please carefully fill in the following information on the setting page:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="205"/>
+        <location filename="mainwindow.cpp" line="204"/>
         <source>若没有，请填写:none.</source>
         <translation>If not, please fill in: none.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="226"/>
-        <location filename="mainwindow.cpp" line="235"/>
+        <location filename="mainwindow.cpp" line="225"/>
+        <location filename="mainwindow.cpp" line="234"/>
         <source>您的设置需要完善：</source>
         <translation>Your settings need to be improved:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="235"/>
+        <location filename="mainwindow.cpp" line="234"/>
         <source>名称长度设置过小</source>
         <translation>The name length is set too small</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="241"/>
+        <location filename="mainwindow.cpp" line="240"/>
         <source>设置线程</source>
         <translation>Set thread</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="241"/>
+        <location filename="mainwindow.cpp" line="240"/>
         <source>请设置合成过程使用的线程数:</source>
         <translation>Please set the number of threads used by the composition process:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="250"/>
-        <location filename="mainwindow.cpp" line="335"/>
-        <location filename="mainwindow.cpp" line="349"/>
+        <location filename="mainwindow.cpp" line="248"/>
+        <location filename="mainwindow.cpp" line="336"/>
+        <location filename="mainwindow.cpp" line="350"/>
         <source>余额不足，请充值（帮助-注册信息-充值）</source>
         <translation>Insufficient balance, please recharge (help - registration information - recharge)</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="326"/>
+        <location filename="mainwindow.cpp" line="327"/>
         <source>因为铸造及其耗时，请务必确认已关闭电脑休眠状态
 
 您确定要继续？</source>
@@ -1536,7 +1555,7 @@ Get method:
 Are you sure you want to continue?</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="180"/>
+        <location filename="mainwindow.cpp" line="179"/>
         <source>Information</source>
         <translation></translation>
     </message>
@@ -1544,64 +1563,64 @@ Are you sure you want to continue?</translation>
 <context>
     <name>MintThread</name>
     <message>
-        <location filename="mintthread.cpp" line="53"/>
+        <location filename="mintthread.cpp" line="52"/>
         <source>正在计算哈希和分配版税地址...</source>
         <translation>Calculating hash and allocating royalty addresses...</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="56"/>
+        <location filename="mintthread.cpp" line="55"/>
         <source>哈希计算及版税地址分配完成</source>
         <translation>Hash calculation and royalty address allocation completed</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="149"/>
+        <location filename="mintthread.cpp" line="147"/>
         <source>正在生成命令...</source>
         <translation>Generating command...</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="152"/>
+        <location filename="mintthread.cpp" line="150"/>
         <source>命令已后台生成</source>
         <translation>Command has been generated in the background</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="185"/>
+        <location filename="mintthread.cpp" line="183"/>
         <source>等待钱包同步...</source>
         <translation>Waiting for wallet synchronization...</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="186"/>
+        <location filename="mintthread.cpp" line="184"/>
         <source>等待钱包同步</source>
         <translation>Wait for wallet synchronization</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="201"/>
+        <location filename="mintthread.cpp" line="199"/>
         <source>之前铸造过</source>
         <translation>Previously Mint</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="229"/>
+        <location filename="mintthread.cpp" line="226"/>
         <source>铸造成功,等待同步中..</source>
         <translation>Casting succeeded, waiting for synchronization..</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="230"/>
+        <location filename="mintthread.cpp" line="227"/>
         <source>同步中..</source>
         <translation>Synchronizing..</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="232"/>
-        <location filename="mintthread.cpp" line="233"/>
+        <location filename="mintthread.cpp" line="229"/>
+        <location filename="mintthread.cpp" line="230"/>
         <source>铸造失败</source>
         <translation>Minting failure</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="249"/>
-        <location filename="mintthread.cpp" line="250"/>
+        <location filename="mintthread.cpp" line="245"/>
+        <location filename="mintthread.cpp" line="246"/>
         <source>铸造成功</source>
         <translation>success</translation>
     </message>
     <message>
-        <location filename="mintthread.cpp" line="252"/>
+        <location filename="mintthread.cpp" line="248"/>
         <source>全部铸造完成</source>
         <translation>All mint completed</translation>
     </message>
@@ -1609,47 +1628,47 @@ Are you sure you want to continue?</translation>
 <context>
     <name>OfferThread</name>
     <message>
-        <location filename="offerthread.cpp" line="21"/>
+        <location filename="offerthread.cpp" line="20"/>
         <source>正在获取NFT列表...</source>
         <translation>Getting NFT list...</translation>
     </message>
     <message>
-        <location filename="offerthread.cpp" line="26"/>
+        <location filename="offerthread.cpp" line="25"/>
         <source>获取NFT列表成功</source>
         <translation>Getting NFT list succeeded</translation>
     </message>
     <message>
-        <location filename="offerthread.cpp" line="28"/>
+        <location filename="offerthread.cpp" line="27"/>
         <source>获取NFT列表失败</source>
         <translation>Failed to get NFT list</translation>
     </message>
     <message>
-        <location filename="offerthread.cpp" line="97"/>
+        <location filename="offerthread.cpp" line="96"/>
         <source>正在生成指令...</source>
         <translation>Generating directives...</translation>
     </message>
     <message>
-        <location filename="offerthread.cpp" line="100"/>
+        <location filename="offerthread.cpp" line="99"/>
         <source>生成指令完成</source>
         <translation>Generation instruction completed</translation>
     </message>
     <message>
-        <location filename="offerthread.cpp" line="133"/>
+        <location filename="offerthread.cpp" line="131"/>
         <source>生成成功</source>
         <translation>Build succeeded</translation>
     </message>
     <message>
-        <location filename="offerthread.cpp" line="134"/>
+        <location filename="offerthread.cpp" line="132"/>
         <source>正在创建Offer....</source>
         <translation>Creating Offer...</translation>
     </message>
     <message>
-        <location filename="offerthread.cpp" line="136"/>
+        <location filename="offerthread.cpp" line="134"/>
         <source>生成失败</source>
         <translation>Build failed</translation>
     </message>
     <message>
-        <location filename="offerthread.cpp" line="139"/>
+        <location filename="offerthread.cpp" line="137"/>
         <source>生成offer完成</source>
         <translation>Generate offer completed</translation>
     </message>

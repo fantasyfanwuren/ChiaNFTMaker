@@ -209,14 +209,14 @@ void FormAdd::on_pushButtonMetaIni_clicked()
             QStandardItem * tempItem = new QStandardItem(partTable.at(i).at(j));
             model->setItem(i,j,tempItem);
         }
-        emit progress(i,totalRows-1,"正在准备表格....");
+        emit progress(i,totalRows-1,tr("正在准备表格...."));
         if(i%100==0){
             delay(DELAY_TIME);
             ui->tableView->scrollTo(model->index(i,0));
 
         }
     }
-    emit progress(100,100,"初始化完成！");
+    emit progress(100,100,tr("初始化完成！"));
     ui->pushButtonMetaIni->setEnabled(true);
     //根据总量设置nft的名称长度
     QString tatalNum = QString::number(model->rowCount());

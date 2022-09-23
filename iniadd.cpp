@@ -18,7 +18,7 @@ void IniAdd::listAll()
 {
     for(int i=0;i<partTree.count();++i){
         addPositionToTable(partTree.at(i));
-        emit prograss(i,partTree.count(),"正在计算所有可能性.....");
+        emit prograss(i,partTree.count(),tr("正在计算所有可能性....."));
         sleep(500);
     }
     emit finished();
