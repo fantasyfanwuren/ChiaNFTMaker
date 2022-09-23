@@ -5,7 +5,6 @@
 #include <QSettings>
 #include <QMessageBox>
 #include <QThread>
-#include <QtDebug>
 #include <QFile>
 
 DialogRegister::DialogRegister(QWidget *parent) :

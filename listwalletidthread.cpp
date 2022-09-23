@@ -1,7 +1,6 @@
 #include "listwalletidthread.h"
 
 #include <QProcess>
-#include <QtDebug>
 #include <QMetaType>
 
 ListWalletIDThread::ListWalletIDThread(const QString &_chiaFilePath,const QString &_fingerprint,QObject *parent)
@@ -32,10 +31,8 @@ void ListWalletIDThread::listWallet()
     int startNum = 0;
     for (int var = 0; var < 4; ++var) {
         startNum = outPut.indexOf("\n",startNum+1);
-        qDebug()<<"startNum"<<startNum;
     }
     startNum+=1;
-    qDebug()<<outPut.mid(startNum,5);
 
     while (true) {
         int walletIdNum = outPut.indexOf("-Wallet ID",startNum);
@@ -45,7 +42,6 @@ void ListWalletIDThread::listWallet()
         int walletIdFeedNum = outPut.indexOf("\n",walletIdNum);
         QString walletId = outPut.mid(walletIdNum+24,walletIdFeedNum-walletIdNum-24);
         walletId.remove("\r");
-        qDebug()<<"walletId"<<walletId;
 
         int DIDIDNum = outPut.indexOf("-DID ID:",startNum);
         QString DIDId;
@@ -56,28 +52,23 @@ void ListWalletIDThread::listWallet()
             DIDId = "none";
         }
         DIDId.remove("\r");
-        qDebug()<<"DIDId"<<DIDId;
 
         int typeNum = outPut.indexOf("-Type:",startNum);
         int typeFeedNum = outPut.indexOf("\n",typeNum);
         QString type = outPut.mid(typeNum+24,typeFeedNum-typeNum-24);
         type.remove("\r");
-        qDebug()<<"type"<<type;
 
         int nameFeedNum = outPut.indexOf("\n",startNum);
         QString name = outPut.mid(startNum,nameFeedNum-startNum);
         name.remove(":");
         name.remove("\r");
-        qDebug()<<"name"<<name;
 
         startNum = outPut.indexOf("\n",walletIdFeedNum+1)+1;
-        qDebug()<<outPut.mid(startNum,5);
 
         QStringList temp;
         temp<<name<<walletId<<type<<DIDId;
         table<<temp;
     }
-    qDebug()<<table;
     emit walletIdover(table);
     emit finished();
     deleteLater();

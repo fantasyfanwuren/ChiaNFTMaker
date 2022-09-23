@@ -2,7 +2,6 @@
 #include <QProcess>
 #include <ctime>
 #include <random>
-#include <QtDebug>
 
 OfferThread::OfferThread(OfferArg _theOfferArg,QObject *parent)
     : QObject{parent},theOfferArg{_theOfferArg}
@@ -101,7 +100,6 @@ void OfferThread::viewOrder()
             emit finishViewOrder(orders);
         }
     }
-    qDebug()<<orders;
 
 }
 

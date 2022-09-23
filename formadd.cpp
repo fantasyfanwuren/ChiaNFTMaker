@@ -1,5 +1,4 @@
 #include "formadd.h"
-#include "qdebug.h"
 #include "ui_formadd.h"
 #include "iniadd.h"
 #include "dialogsort.h"
@@ -12,7 +11,6 @@
 #include <QSettings>
 #include <QThread>
 #include <QMessageBox>
-#include <QtDebug>
 #include <QTime>
 #include <QDesktopServices>
 
@@ -318,7 +316,6 @@ void FormAdd::hidden(const QList<QStringList> &list)
                 break;
             }
         }
-        qDebug()<<currentCol;
         //开始隐藏
 
         for(int row=0;row<model->rowCount();++row){

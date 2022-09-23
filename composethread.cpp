@@ -6,7 +6,6 @@
 #include <QJsonObject>
 #include <QJsonArray>
 #include <QJsonDocument>
-#include <QtDebug>
 #include <QDesktopServices>
 
 ComposeThread::ComposeThread(QString &_name

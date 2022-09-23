@@ -11,7 +11,6 @@
 #include <QStandardItemModel>
 #include <QInputDialog>
 #include <QDesktopServices>
-#include <QtDebug>
 #include <QtConcurrent>
 
 
@@ -443,13 +442,10 @@ void FormMint::orderGenerate()
 void FormMint::downLoadLicnse()
 {
     QUrl newUrl = QUrl(theMintArg.licenceLink);
-    qDebug()<<newUrl;
     if(newUrl.isValid()){
         reply = networkManager.get(QNetworkRequest(newUrl));
         connect(reply,SIGNAL(finished()),this,SLOT(on_downloadFinished()));
         connect(reply,SIGNAL(downloadProgress(qint64, qint64)),this,SLOT(on_downloadProgress(qint64,qint64)));
-    }else{
-        qDebug()<<"链接无效";
     }
 }
 

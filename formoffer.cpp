@@ -9,7 +9,6 @@
 #include <QMessageBox>
 #include <QThread>
 #include <QStandardItemModel>
-#include <QtDebug>
 #include <QtConcurrent>
 
 

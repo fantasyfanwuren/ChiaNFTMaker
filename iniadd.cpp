@@ -1,5 +1,4 @@
 #include "iniadd.h"
-#include <QDebug>
 #include <QTime>
 
 

@@ -20,7 +20,6 @@
 #include <QDir>
 #include <QDesktopServices>
 #include <QUrl>
-#include <QtDebug>
 
 
 const QString VERSION= "3.1.1";
@@ -240,7 +239,6 @@ void MainWindow::add()
     bool ok;
     int threadNum = QInputDialog::getInt(this,tr("设置线程"),tr("请设置合成过程使用的线程数:"),1,1,10,1,&ok);
     if(!ok){
-        qDebug()<<"取消";
         return;
     }
 

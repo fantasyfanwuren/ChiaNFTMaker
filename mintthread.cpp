@@ -1,7 +1,6 @@
 #include "mintthread.h"
 #include <QMetaType>
 #include <QDir>
-#include <QtDebug>
 #include <QCryptographicHash>
 #include <random>
 #include <QProcess>
@@ -56,7 +55,6 @@ void MintThread::makeOrder()
             emit progress(i,maxNum-1,tr("哈希计算及版税地址分配完成"));
         }
     }
-    qDebug()<<theMintArg.licenseHash;
     emit writeTable(orderTable);
 
 }
@@ -223,7 +221,6 @@ void MintThread::runOrder()
         process.waitForStarted(300000);
         process.waitForFinished(300000);
         outPut = QString::fromLocal8Bit(process.readAllStandardOutput());
-        qDebug()<<outPut;
         if(outPut.contains("Successfully")){
             outPut.clear();
             emit progress(i,rowNum,orderTable.at(i).at(0)+tr("铸造成功,等待同步中.."));
@@ -244,7 +241,6 @@ void MintThread::runOrder()
             process.waitForStarted(300000);
             process.waitForFinished(300000);
             outPut = QString::fromLocal8Bit(process.readAllStandardOutput());
-            qDebug()<<"延时等待同步中。。。";
         }while(!outPut.contains(orderTable.at(i).at(1)));
         emit progress(i,rowNum,orderTable.at(i).at(0)+tr("铸造成功"));
         emit writeTable(i,tr("铸造成功"));
