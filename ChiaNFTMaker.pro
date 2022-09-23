@@ -86,3 +86,6 @@ RESOURCES += \
 
 TRANSLATIONS +=cn.ts \
                 en.ts
+
+DISTFILES += \
+    README.md
